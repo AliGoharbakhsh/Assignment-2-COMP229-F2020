@@ -1,0 +1,168 @@
+<%- include partials/header.ejs   %>
+<%- include partials/main_nav.ejs %>
+
+ 
+<!-- Main Content -->
+<main class= "container">
+  <div class="row">
+    <div class="col-10">
+     <div class="jumbotron">
+       <h2 class="h1"><%= title %></h2>
+    </div>
+    </div>
+  </div>
+ <!--  <div class="row justify-content-md-center">
+    <div class="col-6">
+     <h2 class="display-5">welcome to <%= title %></h2>
+      <hr class="my-4">
+    </div> 
+  </div>-->
+
+  <!-- Additional Content -->
+  
+  <% if (title == "Home"){ %>
+
+     <div class="row justify-content-md-center">
+      <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10">
+       <h2 class="display-2 text-warning">Ali Goharbakhsh </h2>
+        <hr class="my-4">
+        <img src="./Assets\images\welcome.jpg" alt="Ali Goharbakhsh" width="728" height="325">
+
+      </div> 
+    </div>
+  
+  <%   }%>
+
+
+<% if (title == "About"){ %>
+
+  <div class="col-6">
+    <div class="alert alert-primary" role="alert">
+      <p  class= "h3 text-danger" >Ali Goharbakhsh 301061243</p>
+    </div>
+    <img src="./Assets\images\ali12.jpg" alt="Ali Goharbakhsh" width="171" height="178">
+    <hr class="my-4">
+     <p  class= "h5" >My primary education is civil engineering. <br>I  have been working with computer every 
+        day for thirty years.<br>
+        Before coming to Centennial College, I wrote programs for myself in Visual Basic and C#.<br>
+        I am currently programming in the Forex financial market using the MetaTrader platform.
+        <a href="https://www.youtube.com/watch?v=8apo4UPcVDk">My Introduction</a>
+      </p>
+  </div>  
+<%   }%>
+
+<% if (title == "Products"){ %>
+
+  <div class="col-11">
+    <div class="alert alert-primary" role="alert">
+      <p  class= "h5 text-danger" >Programing in Forex Market</p>
+    </div>
+    <table class="table">
+      <tr>
+        <td>
+         <li  class= "h5" > I am currently working on a Forex trading automation project.</li>
+         <li  class= "h5" > Online trading in the Forex market is done by many platforms.</li>
+          <li  class= "h5" > I work in MetaTrader and NinjaTrader environments.</li>  
+          <li  class= "h5" > MQL4 is the MetaTrader programming language.</li> 
+          <li  class= "h5" > C# is in the NinjaTrader programming language.</li> 
+      </td>
+      <td>
+        <img src="./Assets\images\meta.jpg" alt="Forex Market" width="250" height="255">
+      </td>
+      </tr>
+      </table>
+      
+  </div>  
+
+  <div class="col-11">
+    <div class="alert alert-primary" role="alert">
+      <p  class= "h5 text-danger" >Test simulation</p>
+    </div>
+    <table class="table">
+      <tr>
+        <td>
+         <li  class= "h5" > It simulated the entrance exam for a master's degree in Iran.</li>
+         <li  class= "h5" > I had prepared about 46 strings. </li>
+          <li  class= "h5" > Its programming language was Visual Basic</li>  
+          <li  class= "h5" > It was very well received.</li> 
+          <li  class= "h5" > The photo opposite is from the field of Physics</li> 
+      </td>
+      <td>
+        <img src="./Assets\images\arshad.jpg" alt="Test simulation" width="250" height="255">
+      </td>
+      </tr>
+      </table>
+  </div>  
+
+  <div class="col-11">
+    <div class="alert alert-primary" role="alert">
+      <p  class= "h5 text-danger" >Centennial College Projects</p>
+    </div>
+    <table class="table">
+      <tr>
+        <td>
+          <li  class= "h5" > You can see the projects of the last two semesters in the following links</li>
+          <li  class= "h5" > <a href="http://studentweb.cencol.ca/agoharba/s2-Assginment06/as.html">Semester Two</a></li>
+         <li  class= "h5" > <a href="http://studentweb.cencol.ca/agoharba/project/base/home.html">Semester one</a></li>
+      </td>
+      <td>
+        <img src="./Assets\images\centenial.jpg" alt="Centennial College Projects" width="250" height="350">
+      </td>
+      </tr>
+      </table>
+  </div>  
+<%   }%>
+
+
+<% if (title == "Services"){ %>
+
+  <div class="col-10">
+    <div class="alert alert-primary" role="alert">
+      <p  class= "h3 text-danger" > Languages ​​and Software</p>
+    </div>
+    <img src="./Assets\images\prog.jpg" alt="Ali Goharbakhsh" width="300" height="350">
+    <hr class="my-4">
+    <li  class= "h5" > I can work with the above languages ​​and software</li>
+    <li  class= "h5" > I am fully acquainted with the technical analysis of financial markets</li>
+    <li  class= "h5" > I'm very interested in using my experience to forecast financial markets through programming.</li>
+     <br>
+  </div>  
+<%   }%>
+
+
+
+
+
+
+ <!-- <img src="./Assets\images\LOGOALI.png" alt="Girl in a jacket" width="50" height="60"> -->
+</main>
+
+<%- include partials/bottom_nav.ejs  -%>
+<%- include partials/footer.ejs -%>
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
