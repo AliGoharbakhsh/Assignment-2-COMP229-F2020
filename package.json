@@ -27,7 +27,7 @@
     "passport-local-mongoose": "^6.0.1",
     "popper.js": "^1.16.1"
   },
-  "description": "\"# Assignment-1---Express-Portfolio\"",
+  "description": "\"# Assignment-2-COMP229-F2020\"",
   "main": "server.js",
   "devDependencies": {
     "@types/connect-flash": "0.0.35",
@@ -40,14 +40,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AliGoharbakhsh/Assignment-1---Express-Portfolio.git"
+    "url": "git+https://github.com/AliGoharbakhsh/Assignment-2-COMP229-F2020.git"
   },
   "author": "ali",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AliGoharbakhsh/Assignment-1---Express-Portfolio/issues"
+    "url": "https://github.com/AliGoharbakhsh/Assignment-2-COMP229-F2020/issues"
   },
-  "homepage": "https://github.com/AliGoharbakhsh/Assignment-1---Express-Portfolio#readme",
+  "homepage": "https://github.com/AliGoharbakhsh/Assignment-2-COMP229-F2020#readme",
   "keywords": [
     "demp",
     "app",
