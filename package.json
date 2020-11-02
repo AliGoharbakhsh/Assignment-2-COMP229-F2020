@@ -40,14 +40,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AliGoharbakhsh/Assignment-2-COMP229-F2020.git"
+    "url": "git+https://github.com/AliGoharbakhsh/Assignment2-AddContact.git"
   },
   "author": "ali",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AliGoharbakhsh/Assignment-2-COMP229-F2020/issues"
+    "url": "https://github.com/AliGoharbakhsh/Assignment2-AddContact/issues"
   },
-  "homepage": "https://github.com/AliGoharbakhsh/Assignment-2-COMP229-F2020#readme",
+  "homepage": "https://github.com/AliGoharbakhsh/Assignment2-AddContact#readme",
   "keywords": [
     "demp",
     "app",

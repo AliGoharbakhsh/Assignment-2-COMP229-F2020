@@ -68,7 +68,7 @@ module.exports.processLoginPage = (req, res, next) => {
             {
                 return next(err);
             }
-            return res.redirect('/book-list');
+            return res.redirect('/home');
         });
     })(req, res, next);
 }
@@ -125,7 +125,7 @@ module.exports.processRegisterPage = (req, res, next) =>{
             // redirect the user and authenticate them
 
             return passport.authenticate('local')(req, res, () =>{
-                res.redirect('/book-list')
+                res.redirect('/home')
             });
         }
     });
